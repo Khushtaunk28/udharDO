@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-circular-references: true
+    server:
+      servlet:
+        port: 8082
+        context-path: udharDo
+  data:
+    mongodb:
+      auto-index-creation: true
+      uri: mongodb+srv://ktaunk28:3570@cluster0.enqct.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: udharDO
+
+
