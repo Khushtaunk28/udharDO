@@ -22,6 +22,5 @@ public class ShopKeeperController {
     public String createLoan() {
         return "success";
 
-
     }
 }
